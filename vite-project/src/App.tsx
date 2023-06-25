@@ -14,7 +14,8 @@ function App() {
     <div>
       {people.map((person) => (
         <p>
-          {person.name} is {person.age} years old
+          {person.name} is {person.age} years old, their favorite food is{" "}
+          {person.favorite_food}.
         </p>
       ))}
     </div>

@@ -22,7 +22,7 @@ async fn main() {
         .unwrap();
 }
 async fn root() -> &'static str {
-    "Hello, World!"
+    "Hey, you're not suppose to be here!"
 }
 
 async fn get_people() -> impl IntoResponse {
